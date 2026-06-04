@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  tourism-app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: tourism-recommendation
+    ports:
+      - "5005:5005"
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped
