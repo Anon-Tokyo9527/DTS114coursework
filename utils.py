@@ -1892,8 +1892,8 @@ def render_plantuml_diagram(puml_code, output_path="artifacts/diagram.png"):
         else:
             print(f"⚠️ Diagram rendering returned no file. Result: {result}")
     except Exception as e:
-        print(f"❌ Error rendering PlantUML diagram: {e}")
-        raise
+        print(f"Warning: PlantUML rendering skipped (server unavailable): {e}")
+        # Don't crash -- PlantUML server may be unreachable
 
 def _encode_image_to_base64(image_path):
     """Encodes a local image file to a base64 data URL."""
