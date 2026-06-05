@@ -1,0 +1,346 @@
+{
+  "beijing": {
+    "city": "北京",
+    "name_en": "Beijing",
+    "description": "Ancient capital with imperial palaces and modern architecture",
+    "attractions": [
+      {
+        "name": "Forbidden City",
+        "category": "Historical",
+        "hours": "8:30-17:00",
+        "ticket": "60 CNY",
+        "highlight": "Largest imperial palace complex in the world"
+      },
+      {
+        "name": "Great Wall",
+        "category": "Historical",
+        "hours": "7:30-17:30",
+        "ticket": "40 CNY",
+        "highlight": "Ancient fortification spanning thousands of miles"
+      },
+      {
+        "name": "Summer Palace",
+        "category": "Garden",
+        "hours": "6:30-18:00",
+        "ticket": "30 CNY",
+        "highlight": "Royal garden with Kunming Lake and Longevity Hill"
+      },
+      {
+        "name": "Temple of Heaven",
+        "category": "Religious",
+        "hours": "6:00-21:00",
+        "ticket": "15 CNY",
+        "highlight": "Ming Dynasty circular temple complex"
+      },
+      {
+        "name": "798 Art Zone",
+        "category": "Culture",
+        "hours": "10:00-18:00",
+        "ticket": "Free",
+        "highlight": "Contemporary art district in former factory complex"
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/beijing.png",
+        "caption": "Beijing — AI Generated"
+      }
+    ]
+  },
+  "shanghai": {
+    "city": "上海",
+    "name_en": "Shanghai",
+    "description": "Global financial hub blending East and West along the Huangpu River",
+    "attractions": [
+      {
+        "name": "The Bund",
+        "category": "Landmark",
+        "hours": "24 hours",
+        "ticket": "Free",
+        "highlight": "Iconic waterfront skyline and colonial architecture"
+      },
+      {
+        "name": "Oriental Pearl Tower",
+        "category": "Landmark",
+        "hours": "8:00-21:30",
+        "ticket": "120 CNY",
+        "highlight": "Futuristic TV tower with glass observation deck"
+      },
+      {
+        "name": "Yu Garden",
+        "category": "Garden",
+        "hours": "8:30-17:30",
+        "ticket": "40 CNY",
+        "highlight": "Classical Ming Dynasty garden with rockeries and ponds"
+      },
+      {
+        "name": "Nanjing Road",
+        "category": "Shopping",
+        "hours": "10:00-22:00",
+        "ticket": "Free",
+        "highlight": "China's premier shopping street spanning 5.5 km"
+      },
+      {
+        "name": "Shanghai Museum",
+        "category": "Culture",
+        "hours": "9:00-17:00",
+        "ticket": "Free",
+        "highlight": "Ancient Chinese art and bronze collections"
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/shanghai.png",
+        "caption": "Shanghai — AI Generated"
+      }
+    ]
+  },
+  "chengdu": {
+    "city": "成都",
+    "name_en": "Chengdu",
+    "description": "Laid-back city famous for spicy cuisine and giant pandas",
+    "attractions": [
+      {
+        "name": "Giant Panda Base",
+        "category": "Nature",
+        "hours": "7:30-18:00",
+        "ticket": "58 CNY",
+        "highlight": "Research and breeding center for giant pandas"
+      },
+      {
+        "name": "Jinli Ancient Street",
+        "category": "Culture",
+        "hours": "10:00-22:00",
+        "ticket": "Free",
+        "highlight": "Traditional Sichuan architecture with street food"
+      },
+      {
+        "name": "Wuhou Shrine",
+        "category": "Historical",
+        "hours": "8:00-18:00",
+        "ticket": "60 CNY",
+        "highlight": "Memorial temple of Three Kingdoms period"
+      },
+      {
+        "name": "Mount Qingcheng",
+        "category": "Nature",
+        "hours": "8:00-17:30",
+        "ticket": "90 CNY",
+        "highlight": "Taoist mountain with ancient temples and trails"
+      },
+      {
+        "name": "Kuanzhai Alley",
+        "category": "Culture",
+        "hours": "10:00-22:00",
+        "ticket": "Free",
+        "highlight": "Restored Qing Dynasty courtyard neighborhood"
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/chengdu.png",
+        "caption": "Chengdu — AI Generated"
+      }
+    ]
+  },
+  "xian": {
+    "city": "西安",
+    "name_en": "Xi'an",
+    "description": "Ancient capital at the eastern terminus of the Silk Road",
+    "attractions": [
+      {
+        "name": "Terracotta Army",
+        "category": "Historical",
+        "hours": "8:30-17:00",
+        "ticket": "120 CNY",
+        "highlight": "Thousands of life-sized warrior statues from 210 BC"
+      },
+      {
+        "name": "City Wall",
+        "category": "Historical",
+        "hours": "8:00-22:00",
+        "ticket": "54 CNY",
+        "highlight": "Best-preserved ancient city wall in China"
+      },
+      {
+        "name": "Muslim Quarter",
+        "category": "Culture",
+        "hours": "10:00-22:00",
+        "ticket": "Free",
+        "highlight": "Vibrant food street with Hui Muslim cuisine"
+      },
+      {
+        "name": "Big Wild Goose Pagoda",
+        "category": "Religious",
+        "hours": "9:00-17:00",
+        "ticket": "50 CNY",
+        "highlight": "Tang Dynasty Buddhist pagoda from 652 AD"
+      },
+      {
+        "name": "Shaanxi Museum",
+        "category": "Culture",
+        "hours": "8:30-18:00",
+        "ticket": "Free",
+        "highlight": "One of China's top history museums"
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/xian.png",
+        "caption": "Xi'an — AI Generated"
+      }
+    ]
+  },
+  "hangzhou": {
+    "city": "杭州",
+    "name_en": "Hangzhou",
+    "description": "Picturesque lakeside city celebrated in Chinese poetry for centuries",
+    "attractions": [
+      {
+        "name": "West Lake",
+        "category": "Nature",
+        "hours": "24 hours",
+        "ticket": "Free",
+        "highlight": "UNESCO World Heritage lake surrounded by temples and gardens"
+      },
+      {
+        "name": "Lingyin Temple",
+        "category": "Religious",
+        "hours": "7:00-17:30",
+        "ticket": "45 CNY",
+        "highlight": "One of China's largest and wealthiest Buddhist temples"
+      },
+      {
+        "name": "Longjing Tea Village",
+        "category": "Culture",
+        "hours": "8:00-18:00",
+        "ticket": "Free",
+        "highlight": "Home of the famous Dragon Well green tea"
+      },
+      {
+        "name": "Leifeng Pagoda",
+        "category": "Historical",
+        "hours": "8:00-19:00",
+        "ticket": "40 CNY",
+        "highlight": "Iconic lakeside pagoda with panoramic views"
+      },
+      {
+        "name": "Xixi Wetland Park",
+        "category": "Nature",
+        "hours": "8:00-17:30",
+        "ticket": "80 CNY",
+        "highlight": "Natural wetland with boat rides and bird watching"
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/hangzhou.png",
+        "caption": "Hangzhou — AI Generated"
+      }
+    ]
+  },
+  "guilin": {
+    "city": "桂林",
+    "name_en": "Guilin",
+    "description": "Karst mountain landscape renowned as China's most scenic destination",
+    "attractions": [
+      {
+        "name": "Li River",
+        "category": "Nature",
+        "hours": "7:00-18:00",
+        "ticket": "210 CNY",
+        "highlight": "Iconic river cruise through limestone peaks"
+      },
+      {
+        "name": "Reed Flute Cave",
+        "category": "Nature",
+        "hours": "8:00-17:30",
+        "ticket": "90 CNY",
+        "highlight": "Spectacular karst cave with colorful lighting"
+      },
+      {
+        "name": "Elephant Trunk Hill",
+        "category": "Landmark",
+        "hours": "7:00-18:00",
+        "ticket": "55 CNY",
+        "highlight": "Natural rock arch shaped like an elephant drinking"
+      },
+      {
+        "name": "Longji Rice Terraces",
+        "category": "Nature",
+        "hours": "7:00-18:00",
+        "ticket": "95 CNY",
+        "highlight": "Dragon's Backbone cascading terraced fields"
+      },
+      {
+        "name": "Yangshuo West Street",
+        "category": "Culture",
+        "hours": "All day",
+        "ticket": "Free",
+        "highlight": "Ancient street with cafes, bars and outdoor activities"
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/guilin.png",
+        "caption": "Guilin — AI Generated"
+      }
+    ]
+  },
+  "tokyo": {
+    "city": "tokyo",
+    "name_en": "Tokyo",
+    "description": "Tokyo is Japan’s dynamic capital, blending historic temples and neighborhoods with world-class shopping, food, and modern skyline views.",
+    "attractions": [
+      {
+        "name": "Senso-ji Temple (Asakusa)",
+        "category": "Historical",
+        "hours": "Temple grounds: 24 hours; Main hall: 6:00-17:00",
+        "ticket": "Free",
+        "highlight": "Tokyo’s oldest temple, reached via the bustling Nakamise-dori shopping street."
+      },
+      {
+        "name": "Meiji Jingu Shrine",
+        "category": "Culture",
+        "hours": "Varies by season (generally sunrise to sunset)",
+        "ticket": "Free",
+        "highlight": "A tranquil Shinto shrine set in a large forested park near Harajuku."
+      },
+      {
+        "name": "Tokyo Skytree",
+        "category": "Landmark",
+        "hours": "10:00-21:00",
+        "ticket": "From about ¥2,100 (Tembo Deck); higher for combo tickets",
+        "highlight": "Panoramic city views from one of the world’s tallest towers."
+      },
+      {
+        "name": "Shinjuku Gyoen National Garden",
+        "category": "Nature",
+        "hours": "9:00-16:30 (last entry 16:00); closed Mondays (or next weekday if Monday is a holiday)",
+        "ticket": "¥500",
+        "highlight": "Spacious landscaped gardens famous for seasonal cherry blossoms and autumn colors."
+      },
+      {
+        "name": "Tsukiji Outer Market",
+        "category": "Shopping",
+        "hours": "Typically 5:00-14:00 (varies by shop); many closed Sundays/holidays",
+        "ticket": "Free",
+        "highlight": "A lively market area known for fresh seafood, street food, and kitchenware shops."
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/tokyo.png",
+        "caption": "Tokyo — AI Generated"
+      }
+    ],
+    "generated": true
+  }
+}
