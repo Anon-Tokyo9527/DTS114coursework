@@ -187,11 +187,17 @@ def create_plan():
             "meal_suggestion": "Try local specialties nearby",
         })
 
+    # Include images from cache if available
+    cached_images = []
+    if city in cities_cache:
+        cached_images = cities_cache[city].get("images", [])
+
     plan = {
         "plan_id": len(plans_db) + 1,
         "city": data.get("city", city.title()),
         "days": days,
         "itinerary": itinerary,
+        "images": cached_images,
         "status": "created",
     }
     plans_db.append(plan)
