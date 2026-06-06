@@ -2,16 +2,33 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import os, sys, json, shutil, time
 
-# Point to project root for utils.py and .env
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
-from utils import load_environment, get_completion, get_image_generation_completion
-
 app = Flask(__name__)
 CORS(app)
 
-load_environment()
-CACHE_FILE = os.path.join(os.path.dirname(__file__), 'cities_cache.json')
-IMAGES_DIR = os.path.join(os.path.dirname(__file__), 'images')
+CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cities_cache.json')
+IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'images')
+os.makedirs(IMAGES_DIR, exist_ok=True)
+
+# Locate project root (where utils.py and .env live) — walk upward until found
+_project_root = os.path.dirname(os.path.abspath(__file__))
+while _project_root != os.path.dirname(_project_root):
+    if os.path.exists(os.path.join(_project_root, 'utils.py')):
+        break
+    _project_root = os.path.dirname(_project_root)
+sys.path.insert(0, _project_root)
+
+_utils_ok = False
+try:
+    from utils import load_environment, get_completion, get_image_generation_completion
+    load_environment()
+    _utils_ok = True
+except ImportError:
+    print("WARNING: utils.py not found. Place it in the project root with .env file.")
+except Exception as e:
+    print(f"WARNING: {e}")
+
+if not os.getenv('APIFREE_API_KEY'):
+    print("WARNING: APIFREE_API_KEY not set. Create a .env file in project root.")
 
 os.makedirs(IMAGES_DIR, exist_ok=True)
 

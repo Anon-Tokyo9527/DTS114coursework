@@ -342,5 +342,149 @@
       }
     ],
     "generated": true
+  },
+  "nanjing": {
+    "city": "nanjing",
+    "name_en": "Nanjing",
+    "description": "Nanjing is a historic former capital of China on the Yangtze River, known for major imperial-era landmarks, museums, and scenic lakeside parks.",
+    "attractions": [
+      {
+        "name": "Ming Xiaoling Mausoleum (明孝陵)",
+        "category": "Historical",
+        "hours": "07:00-17:30",
+        "ticket": "Approx. CNY 70",
+        "highlight": "UNESCO-listed Ming dynasty imperial tomb with the famous Spirit Way stone statues."
+      },
+      {
+        "name": "Sun Yat-sen Mausoleum (中山陵)",
+        "category": "Historical",
+        "hours": "08:30-17:00 (closed Mondays)",
+        "ticket": "Free (reservation required at times)",
+        "highlight": "Grand hillside memorial with long ceremonial stairway honoring Sun Yat-sen."
+      },
+      {
+        "name": "Nanjing City Wall (中华门城堡 / Ming City Wall)",
+        "category": "Landmark",
+        "hours": "08:30-17:30",
+        "ticket": "Approx. CNY 50",
+        "highlight": "One of China’s best-preserved Ming-era fortifications, especially impressive at Zhonghua Gate."
+      },
+      {
+        "name": "Nanjing Museum (南京博物院)",
+        "category": "Culture",
+        "hours": "09:00-17:00 (closed Mondays)",
+        "ticket": "Free (advance reservation often required)",
+        "highlight": "Major national museum with extensive collections spanning prehistoric to modern China."
+      },
+      {
+        "name": "Xuanwu Lake Park (玄武湖公园)",
+        "category": "Nature",
+        "hours": "06:00-21:00",
+        "ticket": "Free",
+        "highlight": "Large urban lake with scenic causeways and views of the city wall and Jiming Temple."
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/nanjing.png",
+        "caption": "Nanjing — AI Generated"
+      }
+    ],
+    "generated": true
+  },
+  "paris": {
+    "city": "paris",
+    "name_en": "Paris",
+    "description": "Paris is France’s capital, celebrated for its art, architecture, cuisine, and iconic landmarks along the Seine.",
+    "attractions": [
+      {
+        "name": "Eiffel Tower",
+        "category": "Landmark",
+        "hours": "9:00-00:45",
+        "ticket": "Paid (varies by level and elevator/stairs)",
+        "highlight": "Panoramic city views from the summit and upper platforms."
+      },
+      {
+        "name": "Louvre Museum",
+        "category": "Culture",
+        "hours": "09:00-18:00 (closed Tue)",
+        "ticket": "€22 (adult, online)",
+        "highlight": "Home to the Mona Lisa and one of the world’s largest art collections."
+      },
+      {
+        "name": "Notre-Dame Cathedral (Parvis and exterior)",
+        "category": "Historical",
+        "hours": "08:00-18:45",
+        "ticket": "Free",
+        "highlight": "Gothic architecture on Île de la Cité; admire the façade and riverside views."
+      },
+      {
+        "name": "Musée d'Orsay",
+        "category": "Culture",
+        "hours": "09:30-18:00 (closed Mon)",
+        "ticket": "€16 (adult)",
+        "highlight": "Impressionist and Post-Impressionist masterpieces in a former railway station."
+      },
+      {
+        "name": "Champs-Élysées & Arc de Triomphe",
+        "category": "Shopping",
+        "hours": "Arc de Triomphe: 10:00-22:30",
+        "ticket": "Arc de Triomphe: €16 (adult); Champs-Élysées: Free",
+        "highlight": "Stroll Paris’s famous avenue and climb the Arc for views over the city’s grand axes."
+      }
+    ],
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/paris.png",
+        "caption": "Paris — AI Generated"
+      }
+    ],
+    "generated": true
+  },
+  "seoul": {
+    "city": "Seoul",
+    "name_en": "Seoul",
+    "description": "Dynamic capital blending ancient palaces with cutting-edge technology",
+    "attractions": [
+      {
+        "name": "Gyeongbokgung Palace",
+        "category": "Historical",
+        "hours": "9:00-18:00",
+        "ticket": "3,000 KRW",
+        "highlight": "Largest of Five Grand Palaces from Joseon Dynasty"
+      },
+      {
+        "name": "N Seoul Tower",
+        "category": "Landmark",
+        "hours": "10:00-23:00",
+        "ticket": "16,000 KRW",
+        "highlight": "Panoramic city views from Namsan Mountain"
+      },
+      {
+        "name": "Myeongdong",
+        "category": "Shopping",
+        "hours": "11:00-22:00",
+        "ticket": "Free",
+        "highlight": "K-beauty and street food paradise"
+      },
+      {
+        "name": "Bukchon Hanok Village",
+        "category": "Culture",
+        "hours": "All day",
+        "ticket": "Free",
+        "highlight": "Traditional Korean houses dating back 600 years"
+      },
+      {
+        "name": "Hongdae",
+        "category": "Culture",
+        "hours": "All day",
+        "ticket": "Free",
+        "highlight": "Youth culture hub with live music and art"
+      }
+    ],
+    "count": 5,
+    "images": []
   }
 }
