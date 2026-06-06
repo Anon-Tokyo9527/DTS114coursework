@@ -52,6 +52,9 @@ cities_cache = load_cache()
 
 def generate_attractions(city_name):
     """Use LLM to generate attraction data for any city."""
+    if not _utils_ok or 'get_completion' not in globals():
+        return None  # Signal that generation is unavailable
+
     prompt = f"""Generate tourist information for {city_name}.
 Return ONLY valid JSON with this structure:
 {{
@@ -132,8 +135,14 @@ def get_attractions():
         return jsonify(cities_cache[city])
 
     # Cache miss — generate via LLM
+    if not _utils_ok:
+        return jsonify({"error": "LLM generation unavailable — check API key and utils.py"}), 503
+
     print(f"Generating data for: {city}...")
     data = generate_attractions(city)
+
+    if data is None:
+        return jsonify({"error": "Failed to generate data for this city"}), 503
 
     img_path = generate_city_image(city)
 
